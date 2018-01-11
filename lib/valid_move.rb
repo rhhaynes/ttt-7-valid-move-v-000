@@ -7,7 +7,5 @@ end
 def position_taken?(array,index)
   if [" ","",nil].include? array[index]
     true
-  else
-    false
   end
 end
